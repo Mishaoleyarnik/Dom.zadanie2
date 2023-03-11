@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f8f8;
+}
+ul  {
+    font-size: 20px;
+    font-style: italic;
+    list-style-type: none;
+
+}
+a {
+    color: #cb4b16;
+    text-decoration: none;
+    font-weight: bold;
+}
+.avatar {
+    border-radius: 28px;
+}
