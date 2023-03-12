@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="../css/my_shop.css">
 </head>
 <body>
 <hr>
 <h3>PARFIMITI.BY</h3>
 <b>оригинальная парфюмерия</b>
 <hr>
-<ul>
+<ul class="ssilki">
     <li><a title="Нажмите" href="../my_shop.html">Главная</a></li>
     <li><a title="Нажмите" href="../Cotalog/cotalog.html">Каталог</a></li>
     <li><a title="Нажмите" href="../Contakt/contact.html">Контакты</a></li>
@@ -18,12 +19,12 @@
 <form action="#">
     <fieldset>
         <legend>Напишите нам</legend>
-        <input type="text" placeholder="Введите ваше имя" required><br><br>
-        <input type="email" placeholder="Введите ваш электронный адрес" required><br><br>
-        <input type="text" placeholder="Тема сообщения" required><br><br>
+        <input type="text" placeholder="Введите ваше имя" required><br>
+        <input type="email" placeholder="Введите ваш электронный адрес" required><br>
+        <input type="text" placeholder="Тема сообщения" required><br>
         Суть вашего писма:<br>
         <textarea rows="7" required></textarea><br>
-        <input type="submit">
+        <input id="otpravit" type="submit">
     </fieldset>
 </form>
 <hr>
