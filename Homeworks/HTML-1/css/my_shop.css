@@ -1,0 +1,76 @@
+.cont{
+    max-width: 750px;
+    margin: auto;
+}
+.name {
+    color: #cb8c16;
+    font-size: 27px;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+.ssilki {
+    font-size: 20px;
+    font-style: italic;
+    list-style-type: none;
+
+}
+a {
+    color: #f50056;
+    text-decoration: none;
+    font-weight: bold;
+}
+.avatar {
+    border-radius: 28px;
+
+}
+.head{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+.opisanie {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.spisok {
+    list-style-image: url("../images/маркер.png");
+    color: #600067;
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 19px;
+}
+#ava {
+
+    border: solid #cb8c16 3px;
+}
+input {
+    width: 220px;
+    height: 20px;
+
+}
+textarea {
+    width: 210px;
+    height: 55px;
+}
+#otpravit {
+    width: 100px;
+    height: 20px;
+    color: #000021;
+    font-weight: bold;
+}
+.color {
+    color: #a10031;
+    background-color: #e1ecec;
+}
