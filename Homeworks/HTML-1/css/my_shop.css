@@ -1,10 +1,6 @@
-.cont{
-    max-width: 750px;
-    margin: auto;
-}
-.name {
+.header{
     color: #cb8c16;
-    font-size: 27px;
+    font-size: 16px;
 }
 
 body {
@@ -14,12 +10,14 @@ body {
     font-size: 20px;
     font-style: italic;
     list-style-type: none;
-
 }
 a {
     color: #f50056;
     text-decoration: none;
     font-weight: bold;
+}
+a:hover{
+    color: #1ba6d7;
 }
 .photo {
     border-radius: 28px;
@@ -44,17 +42,30 @@ a {
     line-height: 24px;
     text-align: left;
 }
-.spisok {
+/*.spisok {
     list-style-image: url("../images/маркер.png");
     color: #600067;
     font-style:oblique;
     font-weight: bold;
     font-size: 19px;
+}*/
+/*Стилизация таблицы файлов (папка page)*/
+table.t_characteristics{
+    width: 20%;
+    border-collapse:collapse;
+    border-spacing:0;
+    height: auto;
 }
-.frame {
-
-
+table.t_characteristics,table.t_characteristics td, table.t_characteristics th {
+    border: 2px solid #cb8c16;
+    text-align: center;
 }
+
+table.t_characteristics th {
+    background: #1ba6d7;
+    color: #fff;
+}
+/*Стилизация полей файла "contacts.html" */
 input {
     width: 220px;
     height: 20px;
@@ -70,7 +81,24 @@ textarea {
     color: #000021;
     font-weight: bold;
 }
-.color {
+.inp_decor {
+    text-transform: capitalize;
     color: #a10031;
     background-color: #e1ecec;
+}
+.inp_decor::-webkit-input-placeholder{
+    text-transform: none;
+}
+.inp_email {
+    background-color: #e1ecec;
+}
+.inp_email:focus {
+    background-color: #97e1ce;
+    color: #f50056;
+}
+
+
+.footer{
+    text-align: center;
+    font-weight: bold;
 }

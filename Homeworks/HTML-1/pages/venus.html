@@ -6,15 +6,15 @@
             <link rel="stylesheet" href="../css/my_shop.css">
         </head>
         <body>
-            <hr>
-            <div><a class="name" href="../index.html"> PARFIMITI.BY </a></div>
-
-            <hr>
-            <ul class="menu">
-                <li><a href="../index.html">Главная</a></li>
-                <li><a href="../catalog.html">Каталог</a></li>
-                <li><a href="../contacts.html">Контакты</a></li>
-            </ul>
+            <div class="header">
+                <a href="../index.html"> <img src="../images/logoza.ru.png" width="300px" alt="PARFIMITI.BY"></a>
+                <p>  PARFIMITI.BY</p>
+                <ul class="menu">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../catalog.html">Каталог</a></li>
+                    <li><a href="../contacts.html">Контакты</a></li>
+                </ul>
+            </div>
             <hr>
             <h1>Narcotic Venus</h1>
             <a href="../images/Narcotic-Venus.jpg" target="_blank"><img  src="../images/Narcotic-Venus.jpg" width="500" alt="фото" class="photo"></a>
@@ -38,15 +38,33 @@
                 специй и древесных нот.</p>
             <hr>
             <h2 class="head">Характеристика товара</h2>
-            <ul class="spisok">
+            <!--<ul class="spisok">
                 <li><b>Сезон</b> - весна</li>
                 <li><b>Стойкость</b> - 73%</li>
                 <li><b>Сделано в</b> - Италии</li>
-            </ul>
+            </ul>-->
 
+            <table class="t_characteristics">
+                <tbody>
+                    <tr>
+                        <th>Сезон</th>
+                        <td>весна</td>
+                    </tr>
+                    <tr>
+                        <th>Стойкость</th>
+                        <td>73%</td>
+                    </tr>
+                    <tr>
+                        <th>Сделано в</th>
+                        <td>Италии</td>
+                    </tr>
+                </tbody>
+            </table>
 
             <hr>
-            <p> &copy; "Все права защищены" </p>
+            <div class="footer">
+                <p> &copy; "Все права защищены"</p>
+            </div>
             <hr>
         </body>
     </html>
