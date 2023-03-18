@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Marker+Hatch&display=swap');
+
 .header{
     color: #cb8c16;
     font-size: 16px;
@@ -46,11 +48,17 @@ a:hover{
     line-height: 16px;
 }
 .paragraph {
+
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+.paragraph:first-letter {
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 30px;
+    
 }
 /*.spisok {
     list-style-image: url("../images/маркер.png");
