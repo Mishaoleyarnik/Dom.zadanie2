@@ -19,9 +19,19 @@ a {
 a:hover{
     color: #1ba6d7;
 }
+/*Работа с фото*/
 .photo {
     border-radius: 28px;
-    border: solid #cb8c16 3px;
+    outline: solid #cb8c16 3px;
+}
+.photo1:hover {
+    outline: none;
+}
+.photo2:hover {
+    outline: none;
+}
+.photo3:hover {
+    outline: none;
 }
 .head{
     color: black;
