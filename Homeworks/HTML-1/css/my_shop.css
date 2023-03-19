@@ -123,6 +123,7 @@ textarea {
 /*Работа со строками*/
 .bold {
     font-weight: bold;
+    color: #CC0000;
 }
 
 /*Подвал*/
