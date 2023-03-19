@@ -120,8 +120,12 @@ textarea {
     background-color: #97e1ce;
     color: #f50056;
 }
+/*Работа со строками*/
+.bold {
+    font-weight: bold;
+}
 
-
+/*Подвал*/
 .footer{
     text-align: center;
     font-weight: bold;
