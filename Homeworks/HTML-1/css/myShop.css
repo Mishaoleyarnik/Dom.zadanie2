@@ -58,7 +58,13 @@ a:hover{
 .paragraph:first-letter {
     font-family: 'Rubik Marker Hatch', cursive;
     font-size: 30px;
-
+}
+/*Стилизация фото в файле catalog.html*/
+.photo_cat {
+    margin-bottom: 30px;
+}
+.heading_cat {
+    margin: 10px 0 0 0 ;
 }
 /*.spisok {
     list-style-image: url("../images/маркер.png");
@@ -114,8 +120,13 @@ textarea {
     background-color: #97e1ce;
     color: #f50056;
 }
+/*Работа со строками*/
+.bold {
+    font-weight: bold;
+    color: #000021;
+}
 
-
+/*Подвал*/
 .footer{
     text-align: center;
     font-weight: bold;
