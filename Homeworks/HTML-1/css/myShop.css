@@ -1,17 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Marker+Hatch&display=swap');
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 .header{
+    background-image: url("../images/Фон Хедер.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
     color: #cb8c16;
     font-size: 16px;
+    /*padding-top: 20px;*/
+    /*height: 110px;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+li {
+    margin: 0 10px 50px 10px;
+}
+.name {
+    width: 515px;
+    height: 15px;
+
 }
 
 body {
     background-color: #f8f8f8;
 }
+
 .menu {
     font-size: 20px;
     font-style: italic;
     list-style-type: none;
+    display: flex;
+    align-self: end;
+
 }
 a {
     color: #f50056;
@@ -41,12 +66,31 @@ a:hover{
     font-weight: 400;
     background: #eaeaea;
 }
+/*Стилизация страницы просмотра товара*/
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+.product div+div {
+    margin-right: 10px;
+}
+/*кнопка "купить"*/
+.button_buy {
+    width: 80px;
+    height: 50px;
+    background-color: #bdd4f3;
+    border-radius: 10%;
+    margin-left: 600px;
+    font-weight: bold;
+    color: #cb8c16;
+}
 .description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
+
 .paragraph {
 
     color: #484343;
@@ -60,6 +104,11 @@ a:hover{
     font-size: 30px;
 }
 /*Стилизация фото в файле catalog.html*/
+.mane {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .photo_cat {
     margin-bottom: 30px;
 }
@@ -128,6 +177,16 @@ textarea {
 
 /*Подвал*/
 .footer{
-    text-align: center;
+    /*text-align: center;*/
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 100px;
+    background-color: #d3b272;
+    margin: 10px 10px 0 0;
+}
+.footer p {
+    margin:10px 15px 0 0;
 }
