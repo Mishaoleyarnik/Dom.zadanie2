@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Marker+Hatch&display=swap');
 
 .container {
-
     width: 1200px;
     margin: 0 auto;
 }
 .header{
+    background-image: url("../images/Фон Хедер.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
     color: #cb8c16;
     font-size: 16px;
     /*padding-top: 20px;*/
@@ -76,10 +78,11 @@ a:hover{
 .button_buy {
     width: 80px;
     height: 50px;
-    background-color: #91c9be;
+    background-color: #bdd4f3;
     border-radius: 10%;
     margin-left: 600px;
     font-weight: bold;
+    color: #cb8c16;
 }
 .description {
     color: #707070;
