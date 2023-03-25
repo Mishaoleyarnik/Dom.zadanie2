@@ -3,15 +3,28 @@
 .header{
     color: #cb8c16;
     font-size: 16px;
+    padding-top: 20px;
+    height: 110px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
 }
 
 body {
     background-color: #f8f8f8;
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #95aabb;
+}
 .menu {
     font-size: 20px;
     font-style: italic;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
 }
 a {
     color: #f50056;
@@ -130,4 +143,8 @@ textarea {
 .footer{
     text-align: center;
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
 }
