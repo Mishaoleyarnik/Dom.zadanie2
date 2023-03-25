@@ -3,7 +3,8 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    background: #e5ecf1;
+    background: #edf1f3;
+
 
 }
 .header{
@@ -87,6 +88,7 @@ a:hover{
 .mane {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .photo_cat {
     margin-bottom: 30px;
