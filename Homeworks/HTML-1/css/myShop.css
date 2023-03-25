@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik+Marker+Hatch&display=swap');
 
 .container {
+
     width: 1200px;
     margin: 0 auto;
-    background: #edf1f3;
-
-
 }
 .header{
     color: #cb8c16;
@@ -66,12 +64,30 @@ a:hover{
     font-weight: 400;
     background: #eaeaea;
 }
+/*Стилизация страницы просмотра товара*/
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+.product div+div {
+    margin-right: 10px;
+}
+/*кнопка "купить"*/
+.button_buy {
+    width: 80px;
+    height: 50px;
+    background-color: #91c9be;
+    border-radius: 10%;
+    margin-left: 600px;
+    font-weight: bold;
+}
 .description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
+
 .paragraph {
 
     color: #484343;
@@ -165,7 +181,7 @@ textarea {
     align-items: flex-start;
     width: 100%;
     height: 100px;
-    background-color: #cb8c16;
+    background-color: #d3b272;
     margin: 10px 10px 0 0;
 }
 .footer p {
